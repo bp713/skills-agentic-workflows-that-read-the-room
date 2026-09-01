@@ -1,6 +1,8 @@
 ---
 name: update-github-info
 description: Draft updates to Mona's GitHub information page from notes, GitHub Blog posts, and changelog updates.
+engine: copilot
+model: gpt-5-mini
 on:
   workflow_dispatch:
   schedule:
