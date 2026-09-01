@@ -12,6 +12,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
@@ -26,6 +27,9 @@ Read `notes/mona-notes.md` before drafting any changes.
 Use `web-fetch` to read external public guidance and announcements from:
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
+
+Use `web-fetch` on https://awesome-copilot.github.com/workflows/ to gather relevant workflow examples and public guidance when they support the content update.
 
 Use GitHub repository API tools to read repository guidance or reference files instead of terminal, CLI, or sandboxed commands.
 
